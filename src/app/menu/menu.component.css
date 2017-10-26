@@ -1,0 +1,21 @@
+#menu_advice { 
+    visibility: hidden;
+    background-color: lightblue;
+}
+
+
+li { 
+    list-style-type: none;
+     text-align: center;
+    border-style : solid;
+    border-width: 3px;
+    border-color: lightgray;
+    border-radius: 25px;
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.selected {
+    background-color: black;
+    color: white;
+  }

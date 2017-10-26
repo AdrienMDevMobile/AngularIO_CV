@@ -1,0 +1,8 @@
+<div id="menu" (mouseenter) ="hoverIn()" (mouseleave) ="hoverOut()">
+    <li *ngFor="let page of listPages">
+    <a routerLink= "/{{page}}" routerLinkActive="active" id="{{page}}"> {{page}} </a> 
+    </li>
+    
+</div>
+
+<p id="menu_advice">You can navigate in the menu using the wheel mouse.</p>
